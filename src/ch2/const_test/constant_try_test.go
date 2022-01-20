@@ -7,6 +7,7 @@ const (
 	Tueday
 	Wednesday
 )
+
 const (
 	Readable = 1 << iota
 	Writable
