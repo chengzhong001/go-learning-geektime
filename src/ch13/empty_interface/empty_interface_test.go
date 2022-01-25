@@ -30,7 +30,6 @@ func DoSomeThing1(p interface{}){
 	
 }
 
-
 func TestEmptyInterfaceAssertion(t *testing.T){
 	DoSomeThing(10)
 	DoSomeThing("10")
