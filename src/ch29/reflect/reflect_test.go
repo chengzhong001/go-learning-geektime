@@ -29,10 +29,6 @@ func TestBasicType(t *testing.T) {
 	CheckType(&f)
 }
 
-func TestDeepEqual(t *testing.T) {
-
-}
-
 type Person struct {
 	Name string
 	Age  float32
